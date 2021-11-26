@@ -81,6 +81,7 @@ function display()
     // Now, add the newly created table with json data, to a container.
     var divhead = document.getElementById("heading");
     divhead.innerHTML = "Todo List";
+    // var divalert = document.getElementById("al");
     var divShowData = document.getElementById('showData');
     divShowData.innerHTML = "";
     divShowData.appendChild(table);
@@ -112,8 +113,14 @@ checkboxes.forEach(function(checkbox) {
       .length;
     console.log(enabledSettings);
     if(enabledSettings == 95){
+        
         setTimeout(function()
-        {alert("hi")},300);
+         { 
+            //  divalert.innerHTML = "Congrats !!! 5 Tasks have been Successfully Completed";
+            alert("Congrats !!! 5 Tasks have been Successfully Completed")
+
+        }
+        ,100);
     }
   })
   
