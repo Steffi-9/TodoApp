@@ -1,0 +1,25 @@
+.login_background{
+    background-image: url(./todologinbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.todo_background{
+    background-image: url(./todobackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.navs a:hover{
+    border: 1px solid black;
+
+}
+.tabledata{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/bc3f9b11e2.js" crossorigin="anonymous"></script>
+    <style>
+        table{
+            width: 100%;
+        }
+         th, td, p, input {
+            font: 14px Verdana;
+        }
+  table, th, td 
+{
+    border: solid 1px black;
+    /* border-collapse: collapse; */
+    padding: 2px 3px;
+    text-align: center;
+    /* background-color:cyan; */
+    background-color:rgba(0, 255, 255, 0.384) ;
+   
+}
+th {
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+    </style>
+</head>
+<body class="todo_background">
+    <nav class="navbar fixed-top  navbar-light navs " style="background-color:cyan">
+        <a class="navbar-brand p-3" href="#" onclick="display()" style="margin-left: 5%;">Todo List</a>
+        <a class="navbar-brand p-3" href="./index.html" style="margin-right: 5%;">LogOut<i class="fas fa-sign-out-alt" ></i></a>
+    </nav>
+   <h2 id="heading" style="text-align: center;margin-top: 6%;"></h2> 
+    <p id="showData" class="tabledata" ></p>
+    <!-- <script src="./todo.js"></script> -->
+   <script src="./ajax.js"></script>
+
+      
+</body>
+</html>
